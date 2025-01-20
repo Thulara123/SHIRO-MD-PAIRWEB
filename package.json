@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name prabath",
-      "stop": "pm2 stop prabath",
-     "restart": "pm2 restart prabath"
+      "start": "pm2 start index.js --deep-monitoring --attach --name SHIRO-MD",
+      "stop": "pm2 stop SHIRO-MD",
+     "restart": "pm2 restart SHIRO-MD"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
