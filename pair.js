@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await ShiroPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/Thulara123/SHIRO-MD-PAIRWEB/blob/main/asset/SHIRO-MD.jpg",
+                url: "asset/SHIRO-MD.jpg",
               },
               caption: sid,
             });
