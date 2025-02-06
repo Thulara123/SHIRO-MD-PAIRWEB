@@ -82,7 +82,7 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*SHIRO-MD [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/KVACZH3HY2C2B1*\n\n*Subscribe My Youtube channel*\n\n*https://youtube.com/@djthularajay?si=F7FKZw7LYieGHTqK*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑‘`;
+            const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await ShiroPairWeb.sendMessage(user_jid, {
               image: {
                 url: "asset/SHIRO-MD.jpg",
